@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indonesian Restaurant - Home Page</title>
+    <link rel="stylesheet" href="/src/style.css">
+</head>
+
+<body>
+
+    <!-- Nav bar -->
+    <header class="wrap">
+        <nav class="wrap">
+            <!-- logo -->
+            <img src="/images/logo.png" alt="Indonesian Restaurant logo" class="logo">
+
+            <div class="wrap nav-link-container">
+                <!-- Nav Links -->
+                <ul class="header-nav">
+                    <li><a href="index.html" target="_blank">Home</a></li>
+                    <li><a href="menu.html" target="_blank">Menu</a></li>
+                    <li><a href="about.html" target="_blank">About</a></li>
+                    <li><a href="contact.html" target="_blank">Contact</a></li>
+                    <button class="search-btn"><img src="/images/search-icon.png" alt="search" class="search-btn-img"></button>
+                </ul>
+
+                <!-- Menu Button -->
+                <button id="menu-btn">&#9776;</button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Side Bar -->
+    <aside>
+        <nav>
+            <ul id="side-bar">
+                 <li><a href="index.html" target="_blank">Home</a></li>
+                    <li><a href="menu.html" target="_blank">Menu</a></li>
+                    <li><a href="about.html" target="_blank">About</a></li>
+                    <li><a href="contact.html" target="_blank">Contact</a></li>
+            </ul>
+        </nav>
+    </aside>
+
+    <!-- Main -->
+
+    <main>
+        <!-- Hero Section -->
+        <section class="section">
+            <!-- Hero Section Info -->
+            <article class="hero-info aniLeft">
+                <div>
+                    <!-- headings -->
+                 <h2 class="hero-h2">NOW OPENING</h2>
+                 <h1 class="hero-h1">Indonesian Food <br> Restaurant</h1>
+                 <h3 class="hero-h3">234 long Street, Geta, Kualalumpur</h3>
+                </div>
+
+                <div class="hero-summary">
+                    <p class="hero-p">Delicious and hyginic Indonesian Food Restaurant in the near of Airport! 234 long Street, Geta, Kualalumpur.</p>
+
+                    <a href="about.html" target="_blank" class="hero-btn">READ MORE</a>
+                </div>
+            </article>
+
+            <!-- Food Gallery -->
+            <div class="gallery aniRight">
+                <!-- Images -->
+                <img src="/images/foodBanner3.png" alt="food" class="gallery-design-1 gallery-img-1">
+                <div class="gallery-void"></div>
+                <img src="/images/foodBanner1.png" alt="food" class="gallery-design-1">
+                <img src="/images/foodBanner2.png" alt="food" class="gallery-design-2">
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>Copyright © <span id="cp-date"></span> | Indonesian Food Restaurant | All Right Reserved</p>
+    </footer>
+
+    <script src="/src/script.js"></script>
+</body>
+
+</html>
